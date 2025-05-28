@@ -36,7 +36,7 @@ export default function Navbar() {
           <div className="flex items-center">
             {user ? (
               <div className="flex items-center space-x-4">
-                <Link to="/cart" className="text-gray-700 hover:text-indigo-600">
+                <Link to="/cart\" className="text-gray-700 hover:text-indigo-600">
                   Cart
                 </Link>
                 <button
